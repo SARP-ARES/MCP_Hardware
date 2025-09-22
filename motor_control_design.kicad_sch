@@ -6936,6 +6936,10 @@
 		(uuid "9cb3a74b-f989-4f10-b71f-0059e2d2281c")
 	)
 	(no_connect
+		(at 100.33 87.63)
+		(uuid "a1f41ae8-5b8a-4c29-bcd0-684507c9b943")
+	)
+	(no_connect
 		(at 67.31 82.55)
 		(uuid "abd1c6f0-c104-4a30-8ade-29ef0487c207")
 	)
@@ -7214,16 +7218,6 @@
 			(type default)
 		)
 		(uuid "104b0086-034f-4fd2-9900-4a9812382868")
-	)
-	(wire
-		(pts
-			(xy 113.03 87.63) (xy 100.33 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11fca57a-a25a-426c-afcd-c30b080dcfbd")
 	)
 	(wire
 		(pts
@@ -10920,17 +10914,6 @@
 			(justify right bottom)
 		)
 		(uuid "64653e5f-f8a8-4ea5-ad5b-cadb0170c90d")
-	)
-	(label "VBatt_sense"
-		(at 113.03 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6690b80c-301e-4c1c-b9b6-8dd3baff367a")
 	)
 	(label "NRST"
 		(at 234.95 162.56 0)
@@ -21399,7 +21382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USBC:HRO_TYPE-C-31-M-12"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 224.79 43.18 0)
 			(effects
 				(font
