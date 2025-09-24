@@ -125,126 +125,6 @@
 				)
 			)
 		)
-		(symbol "+3.3V_2"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_2_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_2_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "+3.3V_3"
 			(power)
 			(pin_numbers hide)
@@ -11807,10 +11687,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "070e4ad5-806c-4150-b5cf-b5ebad522c46")
 		(property "Reference" "D1"
-			(at 147.6375 22.0812 0)
+			(at 143.256 28.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11818,7 +11697,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 147.6375 24.6181 0)
+			(at 146.05 25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11852,7 +11731,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2286"
+		(property "LCSC Part" "C9900011154"
+			(at 146.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
 			(at 146.05 27.94 0)
 			(effects
 				(font
@@ -18327,7 +18215,7 @@
 		(dnp no)
 		(uuid "8b9548b1-a6d7-4328-9484-697366c7058b")
 		(property "Reference" "D3"
-			(at 148.0728 19.939 90)
+			(at 141.986 18.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18336,7 +18224,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 150.6097 19.939 90)
+			(at 144.018 14.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19508,73 +19396,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+3.3V_2")
-		(lib_id "power:+3.3V")
-		(at 265.43 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad6239d6-5020-406f-8fea-4d86586f806a")
-		(property "Reference" "#PWR067"
-			(at 265.43 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 265.43 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.43 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 265.43 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "419176ad-c161-409d-aa4f-e1ac26a4d3b5")
-		)
-		(instances
-			(project ""
-				(path "/e96577c4-ec21-4b26-996c-9ebc38d9c737"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:2N7002")
 		(at 162.56 151.13 90)
 		(mirror x)
@@ -19736,7 +19557,7 @@
 		(dnp no)
 		(uuid "b0771c4c-05a2-41a9-98b9-5ab2d3c7b992")
 		(property "Reference" "D2"
-			(at 148.0728 25.019 90)
+			(at 141.732 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19745,7 +19566,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 150.6097 25.019 90)
+			(at 143.002 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21753,6 +21574,72 @@
 			(project "motor_control_design"
 				(path "/e96577c4-ec21-4b26-996c-9ebc38d9c737"
 					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 265.43 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ded8f93e-129e-4993-a4ca-b53c4cd05e82")
+		(property "Reference" "#PWR029"
+			(at 265.43 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 267.97 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 265.43 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f392fce-15c8-4eba-bbff-34a378b8cf8e")
+		)
+		(instances
+			(project "motor_control_design"
+				(path "/e96577c4-ec21-4b26-996c-9ebc38d9c737"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
