@@ -1,11 +1,4 @@
-23839651371106563
-1_My_custom_library
-PCB_USB_connector
-
-
-0
-4
-4
+23841420111287790
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54697,6 +54690,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+Custom
+CONN_S6B-XH-SM4-TB_JST
+
+S6B-XH-SM4-TBLFSN 
+0
+8
+8
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -90649,6 +90649,13 @@ Logo WEEE
 0
 0
 0
+TYPE-C-31-M-12
+HRO_TYPE-C-31-M-12
+
+
+0
+16
+16
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
