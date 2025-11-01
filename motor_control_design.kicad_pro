@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.55,
-          "width": 0.6
+          "height": 3.9116,
+          "width": 1.8034
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,11 +52,6 @@
         }
       },
       "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        },
         {
           "gap": 0.0,
           "via_gap": 0.0,
@@ -194,9 +189,6 @@
       ],
       "track_widths": [
         0.0,
-        0.4,
-        0.6,
-        0.8,
         1.27
       ],
       "tuning_pattern_settings": {
@@ -229,10 +221,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.5,
-          "drill": 0.25
         },
         {
           "diameter": 1.27,
@@ -472,7 +460,6 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
-      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -530,7 +517,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -598,36 +585,6 @@
           "label": "Description",
           "name": "Description",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MAXIMUM_PACKAGE_HEIGHT",
-          "name": "MAXIMUM_PACKAGE_HEIGHT",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SNAPEDA_PN",
-          "name": "SNAPEDA_PN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
         }
       ],
       "filter_string": "",
@@ -665,15 +622,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
-    "page_layout_descr_file": "Main",
+    "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
