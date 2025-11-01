@@ -7538,6 +7538,15 @@
 		(at 67.31 95.25)
 		(uuid "fbc538bc-9a88-4e2e-bbdc-830fb24bb03c")
 	)
+	(bus_entry
+		(at 90.17 180.34)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27ec9720-84af-41f0-86bf-536c82876d33")
+	)
 	(polyline
 		(pts
 			(xy 133.604 33.782) (xy 166.37 33.782)
