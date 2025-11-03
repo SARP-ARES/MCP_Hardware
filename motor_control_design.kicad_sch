@@ -4261,6 +4261,255 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Power_Management:LTC4365DDB"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LTC4365DDB"
+				(at 1.27 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/4365fa.pdf"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "UV, OV and Reverse Supply Protection Controller, 50/60Hz noise rejection, DFN-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "overvoltage undervoltage reverse-polarity protection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DFN*1EP*2x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LTC4365DDB_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LTC4365DDB_1_1"
+				(pin power_in line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "~{SHDN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "UV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "OV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "GATE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "~{FAULT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:LT1962-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6686,6 +6935,18 @@
 		)
 	)
 	(rectangle
+		(start 133.35 116.84)
+		(end 196.85 149.86)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0755c96d-e6ba-4257-890b-b9fdbd21e0fa)
+	)
+	(rectangle
 		(start 133.35 68.58)
 		(end 197.612 101.092)
 		(stroke
@@ -6793,18 +7054,6 @@
 		)
 		(uuid 663c8b76-16b2-41b0-a1e5-2b020a5d6adf)
 	)
-	(rectangle
-		(start 13.97 13.97)
-		(end 132.08 137.16)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid c094ca6f-0093-42a7-8461-1626f150c457)
-	)
 	(text "Battery 5V Regulator"
 		(exclude_from_sim no)
 		(at 198.882 120.396 0)
@@ -6829,7 +7078,7 @@
 	)
 	(text "Extra I2C\n"
 		(exclude_from_sim no)
-		(at 143.764 145.288 0)
+		(at 109.474 145.288 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7985,6 +8234,16 @@
 		)
 		(uuid "15b1aaa6-8ff1-4aa9-9223-876b265fbc5d")
 	)
+	(polyline
+		(pts
+			(xy 13.97 13.97) (xy 132.08 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "162f5884-c451-4a9d-bcc7-60ad997c3104")
+	)
 	(wire
 		(pts
 			(xy 44.45 172.72) (xy 52.07 172.72)
@@ -8157,7 +8416,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 138.43) (xy 152.4 138.43)
+			(xy 110.49 138.43) (xy 118.11 138.43)
 		)
 		(stroke
 			(width 0)
@@ -8827,7 +9086,7 @@
 	)
 	(polyline
 		(pts
-			(xy 138.43 146.05) (xy 163.83 146.05)
+			(xy 104.14 146.05) (xy 129.54 146.05)
 		)
 		(stroke
 			(width 0)
@@ -8847,7 +9106,7 @@
 	)
 	(polyline
 		(pts
-			(xy 138.43 130.81) (xy 163.83 130.81)
+			(xy 104.14 130.81) (xy 129.54 130.81)
 		)
 		(stroke
 			(width 0)
@@ -9154,6 +9413,16 @@
 			(type default)
 		)
 		(uuid "701f170b-b979-4c2a-8edd-c3bb8f9489d9")
+	)
+	(polyline
+		(pts
+			(xy 13.97 137.16) (xy 104.14 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70799ed1-e931-4e95-85a3-4602fd054bd0")
 	)
 	(wire
 		(pts
@@ -9845,6 +10114,16 @@
 		)
 		(uuid "a979d5f2-84b7-472a-852f-464cfee26a94")
 	)
+	(polyline
+		(pts
+			(xy 129.54 137.16) (xy 132.08 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa38e61-8a09-481c-b590-edce0415fb10")
+	)
 	(wire
 		(pts
 			(xy 82.55 123.19) (xy 80.01 123.19)
@@ -10187,7 +10466,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 135.89) (xy 152.4 135.89)
+			(xy 110.49 135.89) (xy 118.11 135.89)
 		)
 		(stroke
 			(width 0)
@@ -10234,6 +10513,16 @@
 			(type default)
 		)
 		(uuid "c2f0268e-3d83-45e2-8df5-c3fe2e1f7b93")
+	)
+	(polyline
+		(pts
+			(xy 13.97 137.16) (xy 13.97 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c466c250-77c0-4fab-997b-bd0613fb1317")
 	)
 	(wire
 		(pts
@@ -10565,6 +10854,16 @@
 		)
 		(uuid "dbb5cc00-df79-4683-a680-b8e007b7e7b3")
 	)
+	(polyline
+		(pts
+			(xy 132.08 13.97) (xy 132.08 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc5e791c-6aae-4c60-870b-6d1d225d3524")
+	)
 	(wire
 		(pts
 			(xy 18.542 33.02) (xy 18.542 35.56)
@@ -10587,7 +10886,7 @@
 	)
 	(polyline
 		(pts
-			(xy 138.43 130.81) (xy 138.43 146.05)
+			(xy 104.14 130.81) (xy 104.14 146.05)
 		)
 		(stroke
 			(width 0)
@@ -10757,7 +11056,7 @@
 	)
 	(polyline
 		(pts
-			(xy 163.83 146.05) (xy 163.83 130.81)
+			(xy 129.54 146.05) (xy 129.54 130.81)
 		)
 		(stroke
 			(width 0)
@@ -11136,7 +11435,7 @@
 		(uuid "02613d3f-7818-4b47-a2d9-73ed75e4bd54")
 	)
 	(label "SCL"
-		(at 144.78 138.43 0)
+		(at 110.49 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11256,7 +11555,7 @@
 		(uuid "2be8a5ec-e799-4193-a830-ab5baad5ca0b")
 	)
 	(label "SDA"
-		(at 144.78 135.89 0)
+		(at 110.49 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14145,6 +14444,96 @@
 			(project "motor_control_design"
 				(path "/e96577c4-ec21-4b26-996c-9ebc38d9c737"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Management:LTC4365DDB")
+		(at 165.1 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cc8da32-370b-4991-a3f4-45248cf8144a")
+		(property "Reference" "U3"
+			(at 166.878 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LTC4365DDB"
+			(at 166.878 126.746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm"
+			(at 165.1 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/4365fa.pdf"
+			(at 165.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "UV, OV and Reverse Supply Protection Controller, 50/60Hz noise rejection, DFN-8"
+			(at 165.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "9d06887d-9d67-479c-aa69-c0d768a2cf8c")
+		)
+		(pin "3"
+			(uuid "7919ce9b-c792-46f0-84a3-6b049eb6315e")
+		)
+		(pin "8"
+			(uuid "06bf49bc-558e-4e42-bf8f-38d109c999c9")
+		)
+		(pin "6"
+			(uuid "bb82239a-085f-4f35-b666-4df0ee115287")
+		)
+		(pin "9"
+			(uuid "109082d1-e36f-40e4-916a-8138f8689410")
+		)
+		(pin "7"
+			(uuid "c4e8a219-6c50-4325-9a64-771f9e3cba7e")
+		)
+		(pin "1"
+			(uuid "ed569a5c-73f3-4f6b-8df5-77c1bc4a37dc")
+		)
+		(pin "5"
+			(uuid "fffd64bd-b05d-4e8a-b971-3199da9f00b0")
+		)
+		(pin "2"
+			(uuid "928b5493-8d2d-4ac6-9e87-9c21bd5b59d4")
+		)
+		(instances
+			(project ""
+				(path "/e96577c4-ec21-4b26-996c-9ebc38d9c737"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -18526,7 +18915,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 157.48 135.89 0)
+		(at 123.19 135.89 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18535,7 +18924,7 @@
 		(dnp no)
 		(uuid "8bc3d411-2e86-4a41-be4c-5ca2629f7409")
 		(property "Reference" "J7"
-			(at 160.782 135.89 0)
+			(at 126.492 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18543,7 +18932,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 156.845 130.81 0)
+			(at 122.555 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18552,7 +18941,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
-			(at 157.48 135.89 0)
+			(at 123.19 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18561,7 +18950,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 135.89 0)
+			(at 123.19 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18570,7 +18959,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 157.48 135.89 0)
+			(at 123.19 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18579,7 +18968,7 @@
 			)
 		)
 		(property "LCSC Part" "C160390"
-			(at 157.48 135.89 0)
+			(at 123.19 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18610,7 +18999,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 152.4 133.35 90)
+		(at 118.11 133.35 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18619,7 +19008,7 @@
 		(dnp no)
 		(uuid "8c216c56-4172-47c4-a7fe-3b5a75bbb70b")
 		(property "Reference" "#PWR031"
-			(at 156.21 133.35 0)
+			(at 121.92 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18628,7 +19017,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 146.304 132.588 90)
+			(at 112.014 132.588 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18636,7 +19025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 133.35 0)
+			(at 118.11 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18645,7 +19034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 133.35 0)
+			(at 118.11 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18654,7 +19043,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 133.35 0)
+			(at 118.11 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23503,7 +23892,7 @@
 	(symbol
 		(lib_name "GND_6")
 		(lib_id "power:GND")
-		(at 152.4 140.97 270)
+		(at 118.11 140.97 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23511,7 +23900,7 @@
 		(dnp no)
 		(uuid "f6bec4e7-ed7a-4681-a2dc-eebac884e045")
 		(property "Reference" "#PWR032"
-			(at 146.05 140.97 0)
+			(at 111.76 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23520,7 +23909,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.844 140.208 90)
+			(at 114.554 140.208 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23529,7 +23918,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 140.97 0)
+			(at 118.11 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23538,7 +23927,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 140.97 0)
+			(at 118.11 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23547,7 +23936,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 140.97 0)
+			(at 118.11 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
