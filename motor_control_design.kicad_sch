@@ -8007,12 +8007,6 @@
 		(uuid "3db2120d-2ca2-4d8d-803a-90c6978f5458")
 	)
 	(junction
-		(at 165.1 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3fc88bd2-f606-491e-a4e0-ac006f32ad7c")
-	)
-	(junction
 		(at 207.01 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8089,12 +8083,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69f83f3d-5313-44d0-97d7-6a2956bf925a")
-	)
-	(junction
-		(at 165.1 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d0e7b2f-d550-461e-b82d-3de0a89bc1ba")
 	)
 	(junction
 		(at 88.9 153.67)
@@ -8221,12 +8209,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c93d9f2-0e4d-4311-ac43-bbded68222e6")
-	)
-	(junction
-		(at 167.64 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e24fc76-33e1-4041-945f-d92564d45514")
 	)
 	(junction
 		(at 132.08 160.02)
@@ -8911,16 +8893,6 @@
 			(type default)
 		)
 		(uuid "16ea71b1-6448-4d2f-b9b2-64622eee5868")
-	)
-	(wire
-		(pts
-			(xy 191.77 128.27) (xy 165.1 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "173e725e-4428-490e-82e5-481978fd3d5d")
 	)
 	(wire
 		(pts
@@ -10404,16 +10376,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 148.59) (xy 167.64 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8324bf3b-2149-45a2-9156-b54b5883d2ff")
-	)
-	(wire
-		(pts
 			(xy 100.33 80.01) (xy 106.68 80.01)
 		)
 		(stroke
@@ -10624,7 +10586,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 128.27) (xy 137.16 128.27)
+			(xy 137.16 128.27) (xy 191.77 128.27)
 		)
 		(stroke
 			(width 0)
@@ -11564,7 +11526,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 148.59) (xy 165.1 148.59)
+			(xy 157.48 148.59) (xy 173.99 148.59)
 		)
 		(stroke
 			(width 0)
@@ -11851,16 +11813,6 @@
 			(type default)
 		)
 		(uuid "e314e682-23b3-4cef-8008-13e2ea329e75")
-	)
-	(wire
-		(pts
-			(xy 173.99 148.59) (xy 167.64 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e372f35b-d48d-47f0-900d-f4f93a9b096f")
 	)
 	(wire
 		(pts
@@ -15495,6 +15447,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "2cc8da32-370b-4991-a3f4-45248cf8144a")
 		(property "Reference" "U3"
 			(at 166.878 126.746 0)
