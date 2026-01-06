@@ -29737,6 +29737,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "5V\n"
+		(at 132.925 102.4 0)
+		(layer "F.SilkS")
+		(uuid "f8a7000f-eb42-4c3b-ba3c-4e063aed6fcf")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "SDA"
 		(at 149.352 109.855 45)
 		(layer "F.SilkS")
