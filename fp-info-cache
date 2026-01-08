@@ -1,4 +1,4 @@
-26720665917230819
+26722430666084056
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59366,6 +59366,13 @@ SMBJ15A
 0
 2
 2
+CustomARES
+PG-DSO-8-902_INF
+
+IRF7351TRPBF 
+0
+8
+8
 CustomARES
 SOT-363   US6_TOS-M
 
