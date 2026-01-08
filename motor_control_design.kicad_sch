@@ -8050,18 +8050,6 @@
 		(uuid 315c893b-2f5e-4f78-9bad-cc15bb9e145b)
 	)
 	(rectangle
-		(start 198.374 150.876)
-		(end 224.79 165.1)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 35de11bb-a9d8-469e-a72c-8f2e616f63b4)
-	)
-	(rectangle
 		(start 13.97 138.938)
 		(end 92.456 184.15)
 		(stroke
@@ -8295,17 +8283,6 @@
 			(justify left bottom)
 		)
 		(uuid "a571283e-0f3d-4d16-96ba-0d9335336f64")
-	)
-	(text "5V Connector"
-		(exclude_from_sim no)
-		(at 199.39 164.084 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c815adcb-91ad-4449-bc9a-362ea9ac0f43")
 	)
 	(text "LEDS"
 		(exclude_from_sim no)
@@ -11461,16 +11438,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 154.94) (xy 213.36 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a89e69bc-79ff-4d8b-a6a2-00c05941da8c")
-	)
-	(wire
-		(pts
 			(xy 215.9 96.52) (xy 215.9 101.6)
 		)
 		(stroke
@@ -12078,16 +12045,6 @@
 			(type default)
 		)
 		(uuid "cc8e842b-8c51-42bd-a236-ce1ba4a7ee3a")
-	)
-	(wire
-		(pts
-			(xy 211.836 158.75) (xy 213.36 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd292b6a-3494-43a6-9095-6768ef4f0199")
 	)
 	(wire
 		(pts
@@ -15427,73 +15384,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
-		(at 207.01 154.94 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "27e7c3f3-48c0-4e74-b656-90f355e17a61")
-		(property "Reference" "J10"
-			(at 208.026 152.908 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5V"
-			(at 205.74 154.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm"
-			(at 207.01 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 207.01 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 207.01 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "200cd0c7-4a21-4f0c-89ac-b95b6e4421a6")
-		)
-		(instances
-			(project "motor_control_design"
-				(path "/e96577c4-ec21-4b26-996c-9ebc38d9c737"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 187.96 138.43 0)
 		(unit 1)
@@ -17731,73 +17621,6 @@
 			(project "motor_control_design"
 				(path "/e96577c4-ec21-4b26-996c-9ebc38d9c737"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 213.36 158.75 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45de7a21-ddb2-44a7-857f-5f5fd06d686a")
-		(property "Reference" "#PWR064"
-			(at 219.71 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 218.44 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df99e645-9e31-4d93-8e74-ebb67391153b")
-		)
-		(instances
-			(project "motor_control_design"
-				(path "/e96577c4-ec21-4b26-996c-9ebc38d9c737"
-					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -21180,7 +21003,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 207.01 104.14 0)
+		(at 207.01 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21188,7 +21011,7 @@
 		(dnp no)
 		(uuid "94940e91-4f71-48ad-a6d8-467d8aefb91a")
 		(property "Reference" "C14"
-			(at 199.898 105.918 0)
+			(at 214.122 102.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21197,7 +21020,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 199.136 107.95 0)
+			(at 214.884 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21206,7 +21029,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 207.9752 107.95 0)
+			(at 206.0448 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24611,73 +24434,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 213.36 154.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9c6bd98-7a5c-4267-838b-6e51e5208dbf")
-		(property "Reference" "#PWR030"
-			(at 209.55 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 217.17 154.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 213.36 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c04fbdeb-fc44-44fe-be68-0f41ab116a2d")
-		)
-		(instances
-			(project ""
-				(path "/e96577c4-ec21-4b26-996c-9ebc38d9c737"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 80.01 124.46 0)
 		(unit 1)
@@ -26051,73 +25807,6 @@
 			(project "motor_control_design"
 				(path "/e96577c4-ec21-4b26-996c-9ebc38d9c737"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
-		(at 206.756 158.75 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f56c0f1d-7724-4df4-9934-2f32f1bcd047")
-		(property "Reference" "J9"
-			(at 207.772 156.972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 205.74 158.496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm"
-			(at 206.756 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 206.756 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 206.756 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e890a7a-0669-43c2-99e4-fc86c4f503de")
-		)
-		(instances
-			(project "motor_control_design"
-				(path "/e96577c4-ec21-4b26-996c-9ebc38d9c737"
-					(reference "J9")
 					(unit 1)
 				)
 			)
