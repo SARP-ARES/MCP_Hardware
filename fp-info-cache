@@ -1,4 +1,4 @@
-26725967152199284
+26720665917230819
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59360,26 +59360,12 @@ S6B-XH-SM4-TBLFSN
 8
 8
 CustomARES
-CONN_XT30UPB-M_AMA
-
-XT30UPB-M 
-0
-2
-2
-CustomARES
 DO-214AASMB_J-BEND_LTF
 
 SMBJ15A 
 0
 2
 2
-CustomARES
-PG-DSO-8-902_INF
-
-IRF7351TRPBF 
-0
-8
-8
 CustomARES
 SOT-363   US6_TOS-M
 
@@ -59394,13 +59380,6 @@ usb usb-c 2.0 pd
 0
 16
 13
-CustomARES
-XT30PW-M_AMA
-
-XT30PW-M 
-0
-4
-4
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
