@@ -260,121 +260,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x01_Female"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Female"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_Female_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x04_Male"
 			(pin_names
 				(offset 1.016)
@@ -2161,6 +2046,178 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Custom:XT30UPB-F"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "XT30UPB-F"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "XT30UPBF"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/81f11ca924696756331f21b972812074/XT30PB-F.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Socket; DC supply; XT30; female; PIN: 2; on PCBs; THT; Colour: yellow"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "9.4"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Amass"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "XT30UPB-F"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "XT30UPB-F_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8394,7 +8451,7 @@
 	)
 	(rectangle
 		(start 254.508 121.412)
-		(end 281.94 134.62)
+		(end 281.94 140.97)
 		(stroke
 			(width 0)
 			(type default)
@@ -8566,7 +8623,7 @@
 	)
 	(text "Battery Connector"
 		(exclude_from_sim no)
-		(at 255.524 133.858 0)
+		(at 255.524 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9617,7 +9674,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 125.73) (xy 270.51 125.73)
+			(xy 271.78 130.81) (xy 273.05 130.81)
 		)
 		(stroke
 			(width 0)
@@ -9627,7 +9684,7 @@
 	)
 	(wire
 		(pts
-			(xy 268.986 129.54) (xy 270.51 129.54)
+			(xy 271.78 133.35) (xy 274.32 133.35)
 		)
 		(stroke
 			(width 0)
@@ -10027,7 +10084,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 151.13) (xy 261.62 152.4)
+			(xy 261.62 152.4) (xy 261.62 151.13)
 		)
 		(stroke
 			(width 0)
@@ -13160,7 +13217,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 157.48) (xy 261.62 154.94)
+			(xy 261.62 154.94) (xy 261.62 157.48)
 		)
 		(stroke
 			(width 0)
@@ -15248,7 +15305,7 @@
 				)
 			)
 		)
-		(property "Value" "5.11k"
+		(property "Value" "5k"
 			(at 272.034 74.93 90)
 			(effects
 				(font
@@ -15276,6 +15333,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 269.24 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C166638 "
+			(at 269.24 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15345,6 +15411,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 225.552 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C160390"
 			(at 225.552 160.02 0)
 			(effects
 				(font
@@ -15494,6 +15569,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C3845593"
+			(at 275.59 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eea5dc2b-aa71-4781-ad0a-62a6bfa1ba03")
 		)
@@ -15571,6 +15655,155 @@
 			(project "motor_control_design"
 				(path "/e96577c4-ec21-4b26-996c-9ebc38d9c737"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom:XT30UPB-F")
+		(at 259.08 154.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "180e8ee3-e258-4d5a-a4b2-2096886ae241")
+		(property "Reference" "J3"
+			(at 248.92 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT30UPB-F"
+			(at 248.92 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CustomARES:XT30UPBF"
+			(at 242.57 60.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81f11ca924696756331f21b972812074/XT30PB-F.pdf"
+			(at 242.57 -39.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; XT30; female; PIN: 2; on PCBs; THT; Colour: yellow"
+			(at 259.08 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "9.4"
+			(at 242.57 -239.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 242.57 -339.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT30UPB-F"
+			(at 242.57 -439.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 242.57 -539.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 242.57 -639.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 242.57 -739.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 242.57 -839.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C108769"
+			(at 259.08 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a1b9e5a1-5ea8-4e50-96b5-023851644aaa")
+		)
+		(pin "1"
+			(uuid "092dba69-0431-43c6-9d70-a99a0d30c357")
+		)
+		(instances
+			(project ""
+				(path "/e96577c4-ec21-4b26-996c-9ebc38d9c737"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -16150,6 +16383,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C3001948"
+			(at 158.75 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1cd74102-a7f5-440c-baef-9c01a52fcfbc")
 		)
@@ -16250,7 +16492,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330uF"
+		(property "Value" "3.3uF"
 			(at 190.754 139.954 0)
 			(effects
 				(font
@@ -16259,7 +16501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 188.9252 142.24 0)
 			(effects
 				(font
@@ -16278,6 +16520,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 187.96 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C51412"
 			(at 187.96 138.43 0)
 			(effects
 				(font
@@ -16664,6 +16915,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C688318"
+			(at 167.64 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "9d06887d-9d67-479c-aa69-c0d768a2cf8c")
 		)
@@ -17041,6 +17301,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 260.35 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C15195"
 			(at 260.35 33.02 0)
 			(effects
 				(font
@@ -17842,6 +18111,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C19829543"
+			(at 109.22 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "59dee94f-8701-45e1-adff-ac8918d25046")
 		)
@@ -18221,6 +18499,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C19829543"
+			(at 102.87 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a16f7dae-c970-4470-8c39-f8b41aa8f5e0")
 		)
@@ -18524,6 +18811,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 260.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C54968 "
 			(at 260.35 100.33 0)
 			(effects
 				(font
@@ -19106,6 +19402,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C14445"
+			(at 229.87 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8510c118-f513-46fc-b124-b5a6dfe7c160")
 		)
@@ -19169,6 +19474,15 @@
 		)
 		(property "Description" "Ultra low capacitance unidirectional ESD protection diode, 3.3V, SOD-882"
 			(at 102.87 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19829543"
+			(at 95.25 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19443,6 +19757,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C25531 "
+			(at 146.05 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "944f07ad-e061-4271-a54b-18e37933974d")
 		)
@@ -19685,7 +20008,7 @@
 				)
 			)
 		)
-		(property "Value" "5.11k"
+		(property "Value" "5k"
 			(at 223.52 53.34 90)
 			(effects
 				(font
@@ -19713,6 +20036,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 223.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C166638 "
+			(at 223.52 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19887,7 +20219,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3nF"
+		(property "Value" "33pF"
 			(at 180.086 120.904 90)
 			(effects
 				(font
@@ -19916,6 +20248,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 179.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C70465"
+			(at 179.07 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20189,6 +20530,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 135.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C191914"
 			(at 135.89 91.44 0)
 			(effects
 				(font
@@ -20490,6 +20840,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C19829543"
+			(at 220.98 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cefe7449-f865-4576-9460-1ed2cc778a59")
 		)
@@ -20507,7 +20866,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 270.51 129.54 90)
+		(at 274.32 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20516,7 +20875,7 @@
 		(fields_autoplaced yes)
 		(uuid "783527ab-b391-41e1-a81d-6837be06399d")
 		(property "Reference" "#PWR023"
-			(at 276.86 129.54 0)
+			(at 280.67 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20525,7 +20884,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 275.59 129.54 0)
+			(at 279.4 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20534,7 +20893,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 129.54 0)
+			(at 274.32 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20543,7 +20902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 129.54 0)
+			(at 274.32 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20552,7 +20911,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 270.51 129.54 0)
+			(at 274.32 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20705,6 +21064,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C1525"
+			(at 46.99 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ede617b9-093c-44d2-9245-8297ba358b5b")
 		)
@@ -20766,6 +21134,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 213.36 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C315248"
 			(at 213.36 104.14 0)
 			(effects
 				(font
@@ -20990,6 +21367,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 274.32 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C315248"
 			(at 274.32 31.75 0)
 			(effects
 				(font
@@ -21267,6 +21653,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C25531 "
+			(at 143.51 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2b391c10-0dbb-419d-b177-45d3caa1bfeb")
 		)
@@ -21328,6 +21723,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 146.05 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C68403"
 			(at 146.05 109.22 0)
 			(effects
 				(font
@@ -21921,7 +22325,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5k"
 			(at 173.228 121.158 90)
 			(effects
 				(font
@@ -21950,6 +22354,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 171.45 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C166638 "
+			(at 171.45 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22102,6 +22515,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C97253 "
+			(at 227.33 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "a2b35a95-0295-4bba-a333-586a0b7df5f0")
 		)
@@ -22175,6 +22597,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 207.01 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C315248"
 			(at 207.01 104.14 0)
 			(effects
 				(font
@@ -22267,7 +22698,7 @@
 	)
 	(symbol
 		(lib_id "Custom:XT30UPB-M")
-		(at 259.08 154.94 180)
+		(at 271.78 133.35 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22276,7 +22707,7 @@
 		(fields_autoplaced yes)
 		(uuid "96483803-16bf-4f3c-858a-00ef71d10bfd")
 		(property "Reference" "J5"
-			(at 250.19 144.78 0)
+			(at 262.89 123.19 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -22284,15 +22715,15 @@
 			)
 		)
 		(property "Value" "XT30UPB-M"
-			(at 250.19 147.32 0)
+			(at 262.89 125.73 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "CONN_XT30UPB-M_AMA"
-			(at 259.08 154.94 0)
+		(property "Footprint" "CustomARES:CONN_XT30UPB-M_AMA"
+			(at 271.78 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22302,7 +22733,7 @@
 			)
 		)
 		(property "Datasheet" "XT30UPB-M"
-			(at 259.08 154.94 0)
+			(at 271.78 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22312,7 +22743,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 154.94 0)
+			(at 271.78 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C428721"
+			(at 271.78 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22327,76 +22767,9 @@
 			(uuid "3c96373c-0a8e-4438-adc0-bac6d3291d8c")
 		)
 		(instances
-			(project ""
-				(path "/e96577c4-ec21-4b26-996c-9ebc38d9c737"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
-		(at 263.906 129.54 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "96b305f7-76ef-40c3-ae71-2f2e64726b81")
-		(property "Reference" "J4"
-			(at 264.922 127.762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 262.89 129.286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm"
-			(at 263.906 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 263.906 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 263.906 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d3524cb0-89b9-46d6-afe3-5d467201b292")
-		)
-		(instances
 			(project "motor_control_design"
 				(path "/e96577c4-ec21-4b26-996c-9ebc38d9c737"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -22523,6 +22896,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C3001948"
+			(at 177.8 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "716db510-d609-4e63-9e51-430eb3178140")
 		)
@@ -22584,6 +22966,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 260.35 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25531 "
 			(at 260.35 109.22 0)
 			(effects
 				(font
@@ -23026,6 +23417,15 @@
 		)
 		(property "Description" "Low capacitance unidirectional ESD protection diode, 5V, SOD-882"
 			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C3001948"
+			(at 160.02 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23834,73 +24234,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
-		(at 264.16 125.73 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b5e0cc4e-71d4-408c-8f15-22a0377828c5")
-		(property "Reference" "J3"
-			(at 265.176 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VBAT"
-			(at 262.89 125.476 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm"
-			(at 264.16 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 264.16 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 264.16 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "655fc34c-542b-4fda-8da1-5523b2049116")
-		)
-		(instances
-			(project "motor_control_design"
-				(path "/e96577c4-ec21-4b26-996c-9ebc38d9c737"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 261.62 157.48 0)
 		(unit 1)
@@ -24011,6 +24344,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 135.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C191914"
 			(at 135.89 57.15 0)
 			(effects
 				(font
@@ -24238,6 +24580,15 @@
 		)
 		(property "Description" "Ultra low capacitance unidirectional ESD protection diode, 3.3V, SOD-882"
 			(at 200.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19829543"
+			(at 200.66 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24537,6 +24888,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C25539"
+			(at 146.05 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c8b6c13f-d949-436d-a4e8-394ff842c9e8")
 		)
@@ -24667,6 +25027,15 @@
 		)
 		(property "Description" "Low capacitance unidirectional ESD protection diode, 5V, SOD-882"
 			(at 184.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C3001948"
+			(at 176.53 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24914,16 +25283,15 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 270.51 125.73 270)
+		(at 273.05 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c7939317-05fa-41ac-ab94-39254b2f4af8")
 		(property "Reference" "#PWR022"
-			(at 266.7 125.73 0)
+			(at 269.24 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24932,7 +25300,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 273.685 125.73 90)
+			(at 272.288 128.778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24941,7 +25309,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 125.73 0)
+			(at 273.05 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24950,7 +25318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 125.73 0)
+			(at 273.05 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24959,7 +25327,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 270.51 125.73 0)
+			(at 273.05 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26092,6 +26460,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C25117 "
+			(at 154.94 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9ee1c08f-6dbd-4ae4-a80f-56c1de0ed1a3")
 		)
@@ -26162,6 +26539,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C19829543"
+			(at 200.66 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7339ad62-a401-4fb6-af55-6bd35edbd34d")
 		)
@@ -26225,6 +26611,15 @@
 		)
 		(property "Description" "Ultra low capacitance unidirectional ESD protection diode, 3.3V, SOD-882"
 			(at 200.66 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19829543"
+			(at 200.66 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26710,6 +27105,15 @@
 			)
 		)
 		(property "Description" "3.3V, 300mA, Low Noise, Micropower LDO Regulator, MSOP-8"
+			(at 243.84 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C107774"
 			(at 243.84 31.75 0)
 			(effects
 				(font
@@ -27238,6 +27642,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 245.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
 			(at 245.11 100.33 0)
 			(effects
 				(font
@@ -27899,6 +28312,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C3845593"
+			(at 269.24 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "722af917-4125-4982-a003-4c68b1a81bc2")
 		)
@@ -28045,6 +28467,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C7153195"
+			(at 252.73 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3f0aff83-1fa4-45da-b35b-04b724b17df1")
 		)
@@ -28108,6 +28539,15 @@
 		)
 		(property "Description" "Ultra low capacitance unidirectional ESD protection diode, 3.3V, SOD-882"
 			(at 224.79 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19829543"
+			(at 217.17 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
