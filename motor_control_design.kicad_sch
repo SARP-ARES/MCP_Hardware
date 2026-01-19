@@ -8621,6 +8621,17 @@
 		)
 		(uuid "68b85fca-b79b-4453-980f-4c54b80d8437")
 	)
+	(text "FC Power Connector\n"
+		(exclude_from_sim no)
+		(at 240.792 161.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "742bdd5a-0358-45a4-be10-65b3b419078c")
+	)
 	(text "Battery Connector"
 		(exclude_from_sim no)
 		(at 255.524 139.7 0)
@@ -9671,26 +9682,6 @@
 			(type default)
 		)
 		(uuid "0be10028-856d-4903-beed-a14317857176")
-	)
-	(wire
-		(pts
-			(xy 271.78 130.81) (xy 273.05 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c03b1c5-7b13-43b6-bd73-3c6c5c634e1e")
-	)
-	(wire
-		(pts
-			(xy 271.78 133.35) (xy 274.32 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d4f1c48-601e-485d-b5d5-234c0bc63f21")
 	)
 	(wire
 		(pts
@@ -11522,6 +11513,16 @@
 			(type default)
 		)
 		(uuid "83157075-bd92-4bef-bddd-b78c2c0417eb")
+	)
+	(wire
+		(pts
+			(xy 259.08 129.54) (xy 262.89 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83c99103-70e7-4ee8-9ae0-07dcce1beeba")
 	)
 	(wire
 		(pts
@@ -18084,7 +18085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 104.14 140.97 0)
 			(effects
 				(font
@@ -18472,7 +18473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 97.79 142.24 0)
 			(effects
 				(font
@@ -19454,7 +19455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 90.17 140.97 0)
 			(effects
 				(font
@@ -20813,7 +20814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 215.9 66.04 0)
 			(effects
 				(font
@@ -20859,73 +20860,6 @@
 			(project ""
 				(path "/e96577c4-ec21-4b26-996c-9ebc38d9c737"
 					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 274.32 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "783527ab-b391-41e1-a81d-6837be06399d")
-		(property "Reference" "#PWR023"
-			(at 280.67 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 279.4 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 274.32 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 274.32 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ecb4a1b1-c899-4e32-b137-8d16ea20d217")
-		)
-		(instances
-			(project "motor_control_design"
-				(path "/e96577c4-ec21-4b26-996c-9ebc38d9c737"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -21768,6 +21702,73 @@
 			(project ""
 				(path "/e96577c4-ec21-4b26-996c-9ebc38d9c737"
 					(reference "MOSFET1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 262.89 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ac1e785-59d8-417e-a834-7c47ff4f496b")
+		(property "Reference" "#PWR023"
+			(at 262.89 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05168d92-171b-4f61-a4f4-c6084bcb16ae")
+		)
+		(instances
+			(project "motor_control_design"
+				(path "/e96577c4-ec21-4b26-996c-9ebc38d9c737"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -22698,32 +22699,33 @@
 	)
 	(symbol
 		(lib_id "Custom:XT30UPB-M")
-		(at 271.78 133.35 180)
+		(at 262.89 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "96483803-16bf-4f3c-858a-00ef71d10bfd")
 		(property "Reference" "J5"
-			(at 262.89 123.19 0)
+			(at 265.938 123.19 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "XT30UPB-M"
-			(at 262.89 125.73 0)
+			(at 265.938 125.73 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "CustomARES:CONN_XT30UPB-M_AMA"
-			(at 271.78 133.35 0)
+			(at 262.89 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22733,7 +22735,7 @@
 			)
 		)
 		(property "Datasheet" "XT30UPB-M"
-			(at 271.78 133.35 0)
+			(at 262.89 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22743,7 +22745,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 271.78 133.35 0)
+			(at 262.89 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22752,7 +22754,7 @@
 			)
 		)
 		(property "LCSC Part" "C428721"
-			(at 271.78 133.35 0)
+			(at 262.89 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24560,7 +24562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 200.66 160.02 0)
 			(effects
 				(font
@@ -25283,7 +25285,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 273.05 130.81 270)
+		(at 259.08 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25291,7 +25293,7 @@
 		(dnp no)
 		(uuid "c7939317-05fa-41ac-ab94-39254b2f4af8")
 		(property "Reference" "#PWR022"
-			(at 269.24 130.81 0)
+			(at 259.08 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25300,7 +25302,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 272.288 128.778 90)
+			(at 256.286 124.968 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25309,7 +25311,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 130.81 0)
+			(at 259.08 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25318,7 +25320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 130.81 0)
+			(at 259.08 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25327,7 +25329,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 273.05 130.81 0)
+			(at 259.08 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26512,7 +26514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 200.66 167.64 0)
 			(effects
 				(font
@@ -26591,7 +26593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 200.66 163.83 0)
 			(effects
 				(font
@@ -28519,7 +28521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 212.09 64.77 0)
 			(effects
 				(font
